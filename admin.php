@@ -24,6 +24,8 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  
 }
 </style>
 <head>

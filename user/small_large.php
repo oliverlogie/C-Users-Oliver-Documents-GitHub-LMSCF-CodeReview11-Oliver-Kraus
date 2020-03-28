@@ -18,6 +18,10 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
    body, html {
   height: 100vh;
 }
+img{
+  height: 100px;
+  length: 100px;
+}
 .background { 
   background-image: url("../pic/user.jpg");
   height: 100%; 

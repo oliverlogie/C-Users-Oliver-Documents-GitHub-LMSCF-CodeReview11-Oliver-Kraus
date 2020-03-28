@@ -22,8 +22,12 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
   background-image: url("../pic/admin.jpg");
   height: 100%; 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
+}
+img{
+  height: 100px;
+  length: 100px;
 }
 </style>
 <head>
@@ -74,7 +78,7 @@ $result = mysqli_query($connect, $sql);
 ?>
 <div class="container">
   <div class="row justify-content-center border border-white mt-5 mb-5">
-  <h1 class="display-3">Senior animals tabel</h1>
+  <h1 class="display-3">Senior animals table</h1>
     <table class="table text-white">
       <thead>
         <tr>
@@ -110,7 +114,7 @@ $result = mysqli_query($connect, $sql);
 </div>
 
 <form action="../process/process_senior.php" method ="post" class="border text-center ml-5 mr-5">
-    <h1 class="display-4">Edit senior animals tabel</h1>
+    <h1 class="display-4">Edit senior animals table</h1>
     <input type="hidden" name="id" value="<?php echo $id; ?>">
    <p>
        <label  for="firstName">Location:</label>

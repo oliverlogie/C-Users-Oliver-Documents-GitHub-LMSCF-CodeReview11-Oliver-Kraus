@@ -25,6 +25,10 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
   background-repeat: no-repeat;
   background-size: cover;
 }
+img{
+  height: 100px;
+  length: 100px;
+}
 </style>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">

@@ -24,6 +24,13 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
+
+
+}
+
+img{
+  height: 100px;
+  length: 100px;
 }
 </style>
 <head>
