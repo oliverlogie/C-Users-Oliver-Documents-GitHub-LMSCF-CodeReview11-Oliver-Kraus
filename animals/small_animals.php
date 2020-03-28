@@ -22,7 +22,7 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
   background-image: url("../pic/admin.jpg");
   height: 100%; 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 img{
